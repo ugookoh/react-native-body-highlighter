@@ -1,6 +1,4 @@
-# react-native-body-highlighter
-
-[![npm](https://img.shields.io/npm/v/react-native-body-highlighter.svg)](https://www.npmjs.com/package/react-native-body-highlighter) [![Downloads](https://img.shields.io/npm/dt/react-native-body-highlighter.svg)](https://www.npmjs.com/package/react-native-body-highlighter)
+# @ugookoh/react-native-body-highlighter
 
 > SVG human body parts highlighter for react-native (Expo compatible).
 
@@ -16,13 +14,13 @@
 npm
 
 ```bash
-$ npm install react-native-body-highlighter
+$ npm install @ugookoh/react-native-body-highlighter
 ```
 
 yarn
 
 ```bash
-$ yarn add react-native-body-highlighter
+$ yarn add @ugookoh/react-native-body-highlighter
 ```
 
 ## Usage
@@ -31,7 +29,7 @@ $ yarn add react-native-body-highlighter
 
 ```jsx
 import { useState } from "react";
-import Body from "react-native-body-highlighter";
+import Body from "@ugookoh/react-native-body-highlighter";
 
 export default function App() {
   return (
@@ -67,7 +65,7 @@ const styles = StyleSheet.create({
 ```jsx
 import { StyleSheet, Switch, Text, View } from "react-native";
 import { useState } from "react";
-import Body, { ExtendedBodyPart } from "react-native-body-highlighter";
+import Body, { ExtendedBodyPart } from "@ugookoh/react-native-body-highlighter";
 
 export default function App() {
   const [selectedBodyPart, setSelectedBodyPart] =
