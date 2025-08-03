@@ -29,7 +29,7 @@ $ yarn add ugookoh/react-native-body-highlighter
 
 ```jsx
 import { useState } from "react";
-import Body from "ugookoh/react-native-body-highlighter";
+import Body from "react-native-body-highlighter";
 
 export default function App() {
   return (
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
 ```jsx
 import { StyleSheet, Switch, Text, View } from "react-native";
 import { useState } from "react";
-import Body, { ExtendedBodyPart } from "ugookoh/react-native-body-highlighter";
+import Body, { ExtendedBodyPart } from "react-native-body-highlighter";
 
 export default function App() {
   const [selectedBodyPart, setSelectedBodyPart] =
